@@ -2,3 +2,37 @@
 venv
 chapter01/evil
 chapter02/ssh_brutekey_keys
+
+# Testing related
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.py[cod]
+*$py.class
+
+# Claude settings
+.claude/*
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
